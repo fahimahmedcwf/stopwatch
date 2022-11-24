@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Stopwatch</title>
+</head>
+
+<body>
+    <div class="wrapper flex flex-col justify-center items-center h-screen bg-[#0C284D]">
+        <h1 class="text-5xl text-white">Stopwatch</h1>
+        <p class="mt-8 text-white"><span id="seconds" class="text-3xl">00</span>:<span id="tens" class="text-3xl">00</span></p>
+        <div class="flex gap-x-8 mt-6">
+            <button id="button-start" class="bg-blue-700 text-white px-6 py-1 rounded-md font-bold">Start</button>
+            <button id="button-stop" class="bg-blue-700 text-white px-6 py-1 rounded-md font-bold">Stop</button>
+            <button id="button-reset" class="bg-blue-700 text-white px-6 py-1 rounded-md font-bold">Reset</button>
+        </div>
+    </div>
+    <!-- JavaScript Connected -->
+    <script src="app.js"></script>
+</body>
+
+</html>
